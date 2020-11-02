@@ -1,16 +1,7 @@
-// $white: ;
-
-// $color-primary: ;
-// $color-secondary: ;
-// $color-accent: ;
-// $color-shade: ;
-
-// $color-text: #777;
-// $color-bg: ;
-// $color-bg-light: ;
+// colors
+$color-font: #777;
 
 $white: #fff;
-$color-font: #777;
 $color-primary: #58e1c1;
 
 $color-default: #51ddfc;
@@ -29,4 +20,14 @@ $color-col-7: #ec9fa3;
 $color-col-8: #fd9f85;
 $color-col-9: #e4757a;
 $color-col-10: #63cc82;
-$color-col-12: #80e8d1;
+// $color-col-12: #80e8d1;
+
+$color-light: lighten(#80e8d1, 10%);
+
+// media queries breakpoint 
+$brk-wide: '(min-width: 768px)';
+// found this  variable on "Defining Media Queries" with Guil 
+
+// typography
+$font-weight-lt: 300;
+$font-weight-drk: 700;

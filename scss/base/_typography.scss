@@ -27,18 +27,18 @@
   }
   
   .headline-secondary {
-    font-weight: 300;
+    font-weight: $font-weight-lt;
     color: $color-font;
   }
   
   .link {
-    color: #51ddfc;
-    font-weight: 700;
+    color: $color-default;
+    font-weight: $font-weight-drk;
   }
   
   .blockquote {
     font-size: 1.5em;
-    font-weight: 300;
+    font-weight: $font-weight-lt;
     font-style: italic;
     margin-left: 20px;
     padding-left: 20px;
