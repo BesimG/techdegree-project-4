@@ -421,23 +421,23 @@ a {
 .btn.warning {
   background-color: #fd7856;
 }
-.btn .btn:hover.default {
+.btn:hover.default {
   background-color: #83e7fd;
   transition: 0.2s all;
 }
-.btn .btn:hover.error {
+.btn:hover.error {
   background-color: #eca0a3;
   transition: 0.2s all;
 }
-.btn .btn:hover.info {
+.btn:hover.info {
   background-color: #af9ed1;
   transition: 0.2s all;
 }
-.btn .btn:hover.success {
+.btn:hover.success {
   background-color: #89d9a1;
   transition: 0.2s all;
 }
-.btn .btn:hover.warning {
+.btn:hover.warning {
   background-color: #fea088;
   transition: 0.2s all;
 }
