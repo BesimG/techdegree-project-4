@@ -3,7 +3,7 @@
 /* ============================================= */
 
 .btn {
-    @include btn
+    @include btn;
   
       &.default {
         background-color: $color-default;
