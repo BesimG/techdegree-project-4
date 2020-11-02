@@ -24,5 +24,35 @@
       &.warning {
         background-color: $color-warning;
       }
+.btn:hover.default
+{
+  background-color: lighten($color-default, 10%);
+  transition: .2s all;
+}
 
-};
+.btn:hover.error
+{
+  background-color: lighten($color-error, 10%);
+  transition: .2s all;
+}
+
+.btn:hover.info
+{
+  background-color: lighten($color-info, 10%);
+  transition: .2s all;
+}
+
+.btn:hover.success
+{
+  background-color: lighten($color-success, 10%);
+  transition: .2s all;
+}
+
+.btn:hover.warning
+{
+  background-color: lighten($color-warning, 10%);
+  transition: .2s all;
+}
+
+}
+
